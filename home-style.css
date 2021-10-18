@@ -1,0 +1,30 @@
+body {
+    background: rgb(105, 9, 9);
+    background: linear-gradient(
+      180deg,
+      rgba(105, 9, 9, 0.9304096638655462) 9%,
+      rgba(0, 0, 0, 1) 37%
+    );
+    background-repeat: no-repeat;
+  }
+  .con{
+  position: relative;
+  left: 17vw;
+  width: 83vw;
+  height: 88vh;
+  overflow-x: hidden;
+}
+.con.card {
+    background-color: transparent !important;
+  }
+  .img1 {
+    max-width: 64px;
+    border-radius: 5px;
+  }
+  .music-card {
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 80vw;
+    height: auto;
+    border: 1px;
+    border-radius: 5px;
+  }
