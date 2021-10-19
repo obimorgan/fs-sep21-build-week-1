@@ -15,39 +15,575 @@
       <!-- external css -->
   </head>
   <body>
-    <div class="con text-white">
-      <div class="ml-4">
-        <h3>Good morning</h3>
-      </div>
-      <div class="d-flex justify content-between">
-        <div class="music-card ml-4">
-          <div class="media d-flex">
-          <img src="./assets/Konnichiwa_by_Skepta_cover.jpg"  class="mr-3 img-fluid img1" alt="">
-          <div class="media-body d-flex align-self-center">
-            <h6 class="mt-0">Buring Jazz-Rock Fusion</h6>
-          </div>
-        </div>
-      </div>
-      <!-- end of card  -->
-      <div class="music-card ml-4">
-        <div class="media d-flex">
-        <img src="./assets/Konnichiwa_by_Skepta_cover.jpg"  class="mr-3 img-fluid img1" alt="">
-        <div class="media-body d-flex align-self-center">
-          <h6 class="mt-0">Buring Jazz-Rock Fusion</h6>
-        </div>
-      </div>
+    
+    <div class="container-fluid mainContainer">
+      <div class="row">
+        <!-- place for col -2 space side nav bar  -->
+        <div class="col-10">
+    <div class="container-fluid  goodmorningcontainer mt-3">
+      <h4 class="mt-5">Good morning</h4>
     </div>
+  
+    <div class="container-fluid mt-3">
 
-      <!--second cloosure -->
-      </div>
-    <!--second closure  -->
-      <!-- main container div closure  -->
+      <div class="row good-morning-cards">
+        <!-- card 1 -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card card1 rounded border-0 text-white bg-dark mb-3" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="assets/Drake_-_Take_Care_cover.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover loveAgainCard">
+                    <h5 id="fontSize" class="card-title ml-3">Buring Jazz-rock</h5>
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- card 2 -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 83, 14) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img onclick="location.href='#'" id="imageSize" src="https://misc.scdn.co/liked-songs/liked-songs-300.png" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">Liked Songs</h5>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+  
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 79) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="assets/IllmaticNas.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">Metal Ballads</h5>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- card 4 -->
+  
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 35, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+              <img id="imageSize" src="assets/Landlord_cover.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">Post Human</h5>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+          
+          <!-- card 5 -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 43) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="assets/Ready_To_Die.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">This is Joe Bonamassa</h5>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+  
+          <!-- card 6 -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 78, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="assets/The_Blueprint.png" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">Midian</h5>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+  
+          <!-- card 7 -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(82, 83, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="assets/The_Thieves_Banquet.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">Nymphetamine</h5>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+  
+          <!-- card 8 -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="assets/Konnichiwa_by_Skepta_cover.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">amo</h5>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- card 9  -->
+          <!-- <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="https://images-na.ssl-images-amazon.com/images/I/7128tY0BnEL._SY450_.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">LE BASK</h5>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        ----- card 10----
+           <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img id="imageSize" src="https://images-na.ssl-images-amazon.com/images/I/7128tY0BnEL._SY450_.jpg" class="rounded-left" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body bodyHover">
+                    <h5 id="fontSize" class="card-title ml-3">Opeth</h5>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+     <!--  -->
     </div>
+    <!-- recently played section  -->
+    <section class="hero-section-borderless mx-0">
+      <div class="recentPlayed-Section">
+        <h4 class="mt-2 mr-auto">Recently played</h4> 
+        <a class="seeAll1 ml-auto">SEE ALL</a>
+      </div>
+
+      <div class="container-fluid ml-n3">
+        <div class="row recentlyPlayed-Cards">
+          <!-- card 1 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 7 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 8 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 9 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 10 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 11 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 12 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+    </section>
+        <!-- recently played section  -->
+        <!--  -->
+        <!-- Shows to try  -->
+    <section id="hero-section-borderless mx-0">
+      <div class="showsToTry">
+        <div class="showsToTry-Left mr-auto">
+          <h4 class="mt-2 my-0">Shows to try</h4>
+          <small class="text-muted my-0">Podcasts we think you'll get hooked on.</small>
+        </div>
+        <div class="showsToTry-Right">
+          <a class="seeAll2">SEE ALL</a>
+        </div>
+      </div>
+
+      <div class="container-fluid ml-n3">
+        <!-- using the same card as in recently played section  -->
+        <div class="row recentlyPlayed-Cards">
+          <!-- card 1 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-1"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text text-white"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+    </section>
+          <!-- End Shows to try  -->
+      
+      </div>
+     <!--maincol-10cloosure -->
+    </div>
+     <!--maincol-10cloosure -->
+    <!--main row closure  -->
+     </div>
+  <!--main row closure  -->
+      <!-- main container div closure  -->
+     </div>
     <!-- main container div closure   -->
 
 
 
+<script>
+  // function for hover effect for Good morinig cards 
+  function mouseOver(color) {
+    document.body.style.background = color
+    document.body.classList.add("out")
+}
 
+function mouseOut() {
+    document.body.style.background = "linear-gradient(180deg, rgb(83, 13, 4) 0%, rgb(0, 0, 0) 35%)"
+    document.body.classList.remove("out")
+}
+  // function for hover effect for Good morinig cards 
+</script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

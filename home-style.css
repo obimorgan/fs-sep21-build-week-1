@@ -1,30 +1,117 @@
 body {
-    background: rgb(105, 9, 9);
-    background: linear-gradient(
-      180deg,
-      rgba(105, 9, 9, 0.9304096638655462) 9%,
-      rgba(0, 0, 0, 1) 37%
-    );
-    background-repeat: no-repeat;
-  }
-  .con{
-  position: relative;
-  left: 17vw;
-  width: 83vw;
-  height: 88vh;
-  overflow-x: hidden;
+  background: rgb(105, 9, 9);
+  background: linear-gradient(
+    180deg,
+    rgba(105, 9, 9, 0.9304096638655462) 9%,
+    rgba(0, 0, 0, 1) 37%
+  );
+  background-repeat: no-repeat;
+  /* 
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji"; */
 }
-.con.card {
-    background-color: transparent !important;
-  }
-  .img1 {
-    max-width: 64px;
-    border-radius: 5px;
-  }
-  .music-card {
-    background-color: rgb(255, 255, 255, 0.1);
-    width: 80vw;
-    height: auto;
-    border: 1px;
-    border-radius: 5px;
-  }
+
+.mainContainer {
+  max-width: 100vw !important;
+  position: relative;
+}
+
+.mainContainer .col-10 {
+  /* max-width: 70rem; */
+}
+#notRounded {
+  border-radius: 0% !important;
+}
+
+.good-morning-cards,
+.recentlyPlayed-Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card {
+  border: 0;
+}
+
+h4 {
+  color: white;
+}
+.card-body.card-text strong {
+  color: white;
+}
+
+#imageSize {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+#fontSize {
+  font-size: 11px !important;
+  position: absolute;
+  top: 26px !important;
+}
+
+section .card {
+  background-color: rgba(58, 128, 163, 0.7) !important;
+}
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.good-morning-cards .card {
+  background-color: rgba(75, 79, 80, 0.37) !important;
+  max-width: 300px;
+}
+
+.recentlyPlayed-Cards .card {
+  background-color: rgba(60, 65, 68, 0.7) !important;
+}
+.recentPlayed-Section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* max-width: 67rem; */
+}
+.seeAll1 {
+  /* position: absolute;
+      right: 108px;
+      top: 293px; */
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.seeAll2 {
+  /* position: absolute;
+      right: 108px;
+      top: 590px; */
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+/*  */
+.showsToTry {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* all svg */
+/* svg{
+        width: 0px;
+        height: 30px;
+    } */
+
+#cardHover:hover {
+  background-color: rgba(73, 73, 73, 0.7) !important;
+}
+section .card-body:hover {
+  background-color: rgba(105, 9, 9, 0.7) !important;
+}
