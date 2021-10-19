@@ -38,13 +38,10 @@ body {
 h4 {
   color: white;
 }
-.card-body.card-text strong {
-  color: white;
-}
 
 #imageSize {
   width: 80px !important;
-  height: 80px !important;
+  height: auto !important;
 }
 
 #fontSize {
