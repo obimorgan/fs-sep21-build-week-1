@@ -59,8 +59,7 @@ body {
 }
 .album-img {
     width:11rem;
-    height: 11rem;
-    
+    height: 11rem; 
 }
 .card-popular-release {
     width: 13rem;
@@ -73,7 +72,7 @@ body {
     width: 13rem;
     height: 17rem;
     box-shadow: 1px 1px 1px 1px black;
-    background: #252323;
+    background: #313030;
 }
 .card-album-text {
     font-size: 13px;
@@ -82,4 +81,39 @@ body {
 .card-about-contents {  
     margin-top: 350px;
     margin-left: 50px;
+}
+.on-tour-img {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.inner-text-date {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 25%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+#tour-date {
+    font-size: 28px;
+    font-weight: 900;
+}
+.card-ontour {
+    line-height: 70%;
+    background: #000000 50%;
+}
+.card-title-ontour {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+}
+.card-text-ontour {
+    font-size: 12px;
+    font: 500;
+    color: white;
+    
 }
