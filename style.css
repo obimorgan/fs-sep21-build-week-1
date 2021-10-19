@@ -24,6 +24,11 @@ body {
 } */
 .play-btn {
     margin-left: 20px;
+    transition: 0.3s;
+}
+.play-btn:hover {
+    width: 97px;
+    height: 93px
 }
 .btn.dropdown {
     color: rgb(167, 167, 167);
@@ -32,7 +37,6 @@ body {
 .btn.dropdown:hover {
     color: rgb(255, 255, 255);
     font-size: 25px;
-    border: 0;
 }
 .track-title-text {
     color: rgb(235, 235, 235);
@@ -68,10 +72,15 @@ body {
 .card-popular-release {
     width: 13rem;
     height: 17rem;
-    background: #08067c;
-}
-.card:hover {
     background: #121212;
+    transition: 0.3s;
+    
+}
+.card-popular-release:hover {
+    width: 13rem;
+    height: 17rem;
+    box-shadow: 1px 1px 1px 1px black;
+    background: #252323;
 }
 .card-album-text {
     font-size: 13px;
