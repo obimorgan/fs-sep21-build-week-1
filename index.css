@@ -1,12 +1,9 @@
 /* Navbar */
 nav {
-  width: 250px;
+  min-width: 220px;
   background: #000;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: calc(100vh - 40px - 0.5rem);
-  overflow: auto;
+  height: calc(100vh - 30px - 0.5rem);
+  overflow-y: auto;
 }
 
 nav > ul {
@@ -35,6 +32,26 @@ nav #albumsList {
   font-size: 0.8em;
   font-weight: 300;
   overflow: auto;
+}
+
+/* main */
+
+main {
+  height: calc(100vh - 30px - 0.5rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#topNav #arrows button:not(#menuButton) {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+#topNav #user {
+  font-size: 0.7em;
+  font-weight: 500;
+  border-radius: 30px;
 }
 
 /* Player */

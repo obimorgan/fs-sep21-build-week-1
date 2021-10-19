@@ -7,6 +7,10 @@ const navVisibility = () => {
   visibility = !visibility;
 };
 
-let menuButton = document
+let menuButtonMain = document
   .getElementById("menuButton")
+  .addEventListener("click", () => navVisibility());
+
+let menuButtonNav = document
+  .getElementById("menuButtonNav")
   .addEventListener("click", () => navVisibility());
