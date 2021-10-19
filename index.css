@@ -1,9 +1,12 @@
+/* Navbar */
 nav {
   width: 250px;
   background: #000;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
+  height: calc(100vh - 40px - 0.5rem);
+  overflow: auto;
 }
 
 nav > ul {
@@ -28,16 +31,38 @@ nav > ul a:hover {
 
 nav #albumsList {
   min-height: 100px;
-  max-height: calc(100vh - 400px);
+  max-height: calc(100vh - 450px);
   font-size: 0.8em;
   font-weight: 300;
   overflow: auto;
 }
 
-/* Height responsive */
-@media (max-height: 576px) {
-  nav {
-    height: 100vh;
-    overflow: auto;
-  }
+/* Player */
+#player {
+  position: fixed;
+  right: 0%;
+  bottom: 0;
+  left: 0;
+}
+
+#player img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+#player #albumTitle {
+  font-size: 0.7em;
+}
+
+#player #albumGroup {
+  font-size: 0.5em;
+}
+
+#player .progress {
+  height: 0.25rem;
+}
+
+#player #time {
+  font-size: 0.5em;
 }
