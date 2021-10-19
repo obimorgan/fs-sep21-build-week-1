@@ -31,7 +31,8 @@ body {
 }
 .btn.dropdown:hover {
     color: rgb(255, 255, 255);
-    font-size: 25px
+    font-size: 25px;
+    border: 0;
 }
 .track-title-text {
     color: rgb(235, 235, 235);
@@ -59,7 +60,24 @@ body {
     letter-spacing: 2px;
 
 }
-.card {
+.album-img {
+    width:11rem;
+    height: 11rem;
+    
+}
+.card-popular-release {
     width: 13rem;
-    height: 18rem;
+    height: 17rem;
+    background: #08067c;
+}
+.card:hover {
+    background: #121212;
+}
+.card-album-text {
+    font-size: 13px;
+    color: rgb(192, 192, 192);
+}
+.card-about-contents {  
+    margin-top: 350px;
+    margin-left: 50px;
 }
