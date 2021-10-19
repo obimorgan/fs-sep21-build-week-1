@@ -1,0 +1,28 @@
+body {
+  color: #be2528;
+}
+.jumbotron {
+  background-color: #be2528;
+  border-radius: 0;
+}
+.headerSmallRow {
+  color: gray;
+  margin-left: 5px;
+}
+.album-title {
+  color: aliceblue;
+}
+.album-header {
+  color: aliceblue;
+}
+.ancher-header {
+  color: aliceblue;
+  margin-left: 5px;
+}
+.album-heder {
+  margin-top: 100px;
+  padding-left: 20px;
+}
+.play-btn {
+  background: red;
+}
