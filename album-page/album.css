@@ -1,11 +1,29 @@
 body {
   color: #be2528;
-  background-color: #121212;
+  background: rgb(5, 5, 5);
+  background: rgba(255, 12, 12, 0.534);
+  background: linear-gradient(
+    180deg,
+    rgba(235, 3, 80, 0.384) 6%,
+    rgb(158, 55, 55) 50%,
+    #371717 83%
+  );
 }
 .jumbotron {
-  background-color: #be2528;
+  background: none;
   border-radius: 0;
 }
+
+.container-header {
+  background: rgba(255, 12, 12, 0.534);
+  background: linear-gradient(
+    180deg,
+    rgba(235, 3, 80, 0.384) 6%,
+    rgb(158, 55, 55) 50%,
+    #371717 83%
+  );
+}
+
 .headerSmallRow {
   color: gray;
   margin-left: 5px;
@@ -58,14 +76,6 @@ body {
   margin-bottom: none;
 }
 .container2 {
-  background: rgb(5, 5, 5);
-  background: rgba(255, 12, 12, 0.534);
-  background: linear-gradient(
-    180deg,
-    rgba(235, 3, 80, 0.384) 6%,
-    rgb(158, 55, 55) 50%,
-    rgb(55, 23, 23) 83%
-  );
 }
 /* .table > tboday > tr > td:hover {
   color: white !important;
