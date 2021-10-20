@@ -8,13 +8,23 @@ body {
     letter-spacing: -5px;
 }
 .verified-artist-text {
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 1px;
 }
 .title-text-monthly-listener {
     font-size: 8px;
     font-weight: 400;
     line-height: 32;
+}
+.artistpick-text-p {
+    color: White;
+    font-size: 16px;
+    font-weight: 700;
+}
+.artistpick-text-p1 {
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+    font-weight: 400;
 }
 .play-btn-spotify {
     position: relative;
