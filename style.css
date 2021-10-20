@@ -204,6 +204,9 @@ body {
     font-size: 28px;
     font-weight: 900;
 }
+.on-tour-img {
+    height: 100%;
+}
 .card-ontour {
     line-height: 70%;
     background: #000000 50%;
