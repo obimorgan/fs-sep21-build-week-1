@@ -1,5 +1,6 @@
 body {
   color: #be2528;
+  background-color: #121212;
 }
 .jumbotron {
   background-color: #be2528;
@@ -25,4 +26,14 @@ body {
 }
 .play-btn {
   background: red;
+}
+.card {
+  background-color: #121212;
+  margin-top: 3px;
+}
+.bottom-album {
+  background-color: #121212;
+}
+.card-text {
+  background-color: #121212;
 }
