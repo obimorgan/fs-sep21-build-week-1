@@ -17,9 +17,6 @@ body {
   position: relative;
 }
 
-.mainContainer .col-10 {
-  /* max-width: 70rem; */
-}
 #notRounded {
   border-radius: 0% !important;
 }
