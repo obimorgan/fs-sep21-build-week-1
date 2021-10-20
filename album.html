@@ -49,19 +49,19 @@
         </div>
       </div>
       <!--   here is end of almub header-->
-      <div class="container2 bg-danger">
-      <div class="d-flex justify-content-start align-items-center ">
-            <div class="text-success" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+      <div class="container2 bg-danger ">
+      <div class="d-flex justify-content-start align-items-center h-40 ">
+            <div class="text-success mt-4" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
                  </svg>
             </div>
-            <div>
-             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <div class="text-success mt-4">
+             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart-fill ml-5"  viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
             </svg></div>
             <!-- <button type="button" class="btn btn-outline-light btn-follow mx-5">FOLLOW</button> -->
-            <div class="dropdown ">
+            <div class="dropdown  ml-5 mt-4">
                 <button class="btn dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     . . .
                 </button>
@@ -75,12 +75,13 @@
         </div>
 
       <!--   here is  Start of Middle section  of Album-->
-      <table class="table table-dark">
+      <section>
+      <table class="table bg-dark mb-0 table-borderless table-hover" id="tableSection">
         <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">
+          <tr id="tableRow">
+            <th class="TheaderText"scope="col">#</th>
+            <th class="TheaderText"scope="col">Title</th>
+            <th class="TheaderText"scope="col">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -99,104 +100,104 @@
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="colors">
           <tr>
-            <th scope="row">1</th>
-            <td>Doorie <br /><a class="" href="#">Atif Aslam</a></td>
-            <td>3:40</td>
+            <th class="TheaderText"scope="row">1</th>
+            <td class="TheaderText">Doorie <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText">3:40</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>
-              Hum Kis Galli Ja Rahe Hai <br /><a class="" href="#"
-                >Atif Aslam</a
-              >
+            <th class="TheaderText"scope="row">2</th>
+            <td class="TheaderText">
+              Hum Kis Galli Ja Rahe Hai <br /><a class="link" href="#">Atif Aslam</a>
             </td>
-            <td>5:0</td>
+            <td class="TheaderText">5:0</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Ehsaas <br /><a class="" href="#">Atif Aslam</a></td>
-            <td>6:40</td>
+            <th class="TheaderText"scope="row">3</th>
+            <td class="TheaderText">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText">6:40</td>
           </tr>
           <tr>
-            <th scope="row">4</th>
-            <td>Ehsaas <br /><a class="" href="#">Atif Aslam</a></td>
-            <td>4:40</td>
+            <th class="TheaderText"scope="row">4</th>
+            <td class="TheaderText">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText">4:40</td>
           </tr>
           <tr>
-            <th scope="row">5</th>
-            <td>Ehsaas <br /><a class="" href="#">Atif Aslam</a></td>
-            <td>5:40</td>
+            <th class="TheaderText"scope="row">5</th>
+            <td class="TheaderText">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText">5:40</td>
           </tr>
         </tbody>
       </table>
       </div>
+      </section>
       <!--   here is  End of Middle section  of Album-->
 
       <!--   here is  Last section  of Album-->
-      <div class="bottom-album">
-        <div class="d-flex justify-content-between">
+      <div class="bottom-album bg-dark">
+        <div id="botton-title" class=" d-flex justify-content-between mb-2">
           <h2><a class="" href="#">More By Atif Aslam</a> </h2>
           <h2><a class="" href="#">SEE Discography</a></h2>
         </div>
         <div class="Card-Container d-flex justify-content-between">
-        <div class="card d-flex flex-coloumn align-items-center" style="width: 18rem;  height: 17rem;">
+        <div class="card d-flex flex-coloumn align-items-center bg-dark" style="width: 18rem;  height: 17rem;">
           <img
             src="./image/osathi card.jpg"
             class="card-img-top"
             alt="O Saathi" style="width: 232px; height: 232px;"
           />
-          <div class="card-body">
+          <div class="card-body text-white">
             <p class="card-text"><h4>O Saathi</h4></p>
             <p class="card-text"><h5>2018</h5></p>
           </div>
         </div>
         
-        <div class="card d-flex flex-coloumn align-items-center" style="width: 18rem;  height: 17rem;">
+        <div class="card d-flex flex-coloumn align-items-center bg-dark" style="width: 18rem;  height: 17rem;">
           <img
             src="./image/pehli dafa card.jpg"
             class="card-img-top img-fluid"
             alt="Pehli dafa" style="width: 232px; height: 232px;" 
           />
-          <div class="card-body">
+          <div class="card-body text-white">
             <p class="card-text mt-4"><h4>Pehli Dafa</h4></p>
             <p class="card-text"><h5>2017</h5></p>
           </div>
         </div>
 
-        <div class="card d-flex flex-coloumn align-items-center" style="width: 18rem;  height: 17rem;">
+        <div class="card d-flex flex-coloumn align-items-center bg-dark" style="width: 18rem;  height: 17rem;">
           <img
             src="./image/paniyon card.jpg"
             class="card-img-top"
             alt="Paniyon" style="width: 232px; height: 232px;"
           />
-          <div class="card-body">
+          <div class="card-body text-white">
             <p class="card-text"><h4>Paniyon Sa</h4></p>
             <p class="card-text"><h5>2018</h5></p>
           </div>
         </div>
 
-        <div class="card d-flex flex-coloumn align-items-center" style="width: 18rem;  height: 17rem;">
+        <div class="card d-flex flex-coloumn align-items-center bg-dark" style="width: 18rem;  height: 17rem;">
           <img
             src="./image/rafta rafta card.jpg"
             class="card-img-top"
             alt="Rafta rafta" style="width: 232px; height: 232px;"
           />
-          <div class="card-body">
+          <div class="card-body text-white">
             <p class="card-text"><h4>Rafta Rafta</h4></p>
             <p class="card-text"><h5>2021</h5></p>
           </div>
         </div>
 
-        <div class="card d-flex flex-coloumn align-items-center" style="width: 18rem;  height: 17rem;">
+        <div class="card d-flex flex-coloumn align-items-center bg-dark" style="width: 18rem;  height: 19rem;">
           <img
             src="./image/jab koi card.jpg"
             class="card-img-top"
             alt="Jab koi" style="width: 232px; height: 232px;"
           />
-          <div class="card-body">
-            <p class="card-text"><h4>Jab Koi Bat Recreated</h4></p><p class="card-text"><h5>2018</h5></p>
+          <div class="card-body text-white">
+            <p class="card-text "><h4>Jab Koi Bat Recreated</h4></p>
+            <p class="card-text"><h5>2018</h5></p>
             
           </div>
         </div>

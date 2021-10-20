@@ -28,12 +28,52 @@ body {
   background: red;
 }
 .card {
-  background-color: #121212;
+  /* background-color: #121212; */
   margin-top: 3px;
 }
 .bottom-album {
-  background-color: #121212;
+  /* background-color: #121212; */
 }
-.card-text {
-  background-color: #121212;
+#botton-title a {
+  text-decoration: none;
+  color: white;
 }
+.table {
+  color: #121212;
+}
+.link {
+  color: white;
+}
+.colors {
+  columns: white;
+}
+.TheaderText {
+  color: gray;
+}
+.container2 {
+  height: 100px;
+}
+.headerLine {
+  margin-top: none;
+  margin-bottom: none;
+}
+.container2 {
+  background: rgb(5, 5, 5);
+  background: rgba(255, 12, 12, 0.534);
+  background: linear-gradient(
+    180deg,
+    rgba(235, 3, 80, 0.384) 6%,
+    rgb(158, 55, 55) 50%,
+    rgb(55, 23, 23) 83%
+  );
+}
+/* .table > tboday > tr > td:hover {
+  color: white !important;
+} */
+/* .card-body .card-text {
+  background-color: #121212;
+  color: aliceblue;
+} */
+/* .card:hover {
+  color: white;
+} */
