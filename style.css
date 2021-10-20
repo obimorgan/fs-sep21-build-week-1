@@ -1,18 +1,19 @@
 body {
     font-family: "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", "MS Gothic", sans-serif;;
-    background-image: linear-gradient(#4b463b 2%, #161616 30%,  #000000 50%);
+    background-image: linear-gradient(#726d62 2%, #161616 25%,  #000000 100%);
 }
 .title-text {
     font-size: 96px;
     font-weight: 900;
-    letter-spacing: -10px;
+    letter-spacing: -5px;
 }
 .verified-artist-text {
     font-size: 12px;
     letter-spacing: 1px;
 }
 .title-text-monthly-listener {
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: 400;
     line-height: 32;
 }
 .play-btn-spotify {
