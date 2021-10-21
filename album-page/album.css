@@ -49,9 +49,6 @@ body {
   /* background-color: #121212; */
   margin-top: 3px;
 }
-.bottom-album {
-  /* background-color: #121212; */
-}
 #botton-title a {
   text-decoration: none;
   color: white;
@@ -75,18 +72,6 @@ body {
   margin-top: none;
   margin-bottom: none;
 }
-.container2 {
-}
-/* .table > tboday > tr > td:hover {
-  color: white !important;
-} */
-/* .card-body .card-text {
-  background-color: #121212;
-  color: aliceblue;
-} */
-/* .card:hover {
-  color: white;
-} */
 
 /* Navbar */
 nav {
