@@ -101,6 +101,30 @@ h4 {
 section .card-body:hover {
   background-color: rgba(82, 58, 58, 0.7) !important;
 }
+/* extra feautre for good moring section  */
+.bodyHover {
+  position: relative;
+}
+.playHover {
+  font-size: 40px;
+
+  position: absolute;
+  /* top: 0px; */
+  right: 2px;
+  bottom: -10px;
+  visibility: hidden;
+  color: #55ba55;
+  /* background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(85, 186, 85, 1) 70%
+  );
+  border-radius: 50%; */
+}
+
+#cardHover:hover .playHover {
+  visibility: visible;
+}
 
 /* Navbar */
 nav {
