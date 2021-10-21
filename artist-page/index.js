@@ -16,3 +16,11 @@ let menuButtonMain = document
 let menuButtonNav = document
   .getElementById("menuButtonNav")
   .addEventListener("click", () => navVisibility());
+
+  function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  }
