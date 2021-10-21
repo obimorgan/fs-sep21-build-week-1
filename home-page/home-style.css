@@ -28,7 +28,7 @@ body {
 }
 /*  */
 .music-card {
-  background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgba(88, 85, 85, 0.26);
   width: 100vw;
   height: auto;
   border: 1px;
@@ -98,8 +98,8 @@ h4 {
 #cardHover:hover {
   background-color: rgba(34, 31, 31, 0.7) !important;
 }
-section .card-body:hover {
-  background-color: rgba(82, 58, 58, 0.7) !important;
+section .cardwrap:hover {
+  background-color: rgba(3, 3, 3, 0.027) !important;
 }
 /* extra feautre for good moring section  */
 .bodyHover {
