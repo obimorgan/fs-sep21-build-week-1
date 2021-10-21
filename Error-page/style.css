@@ -1,0 +1,45 @@
+body{
+    background: rgb(74,213,77);
+    background: radial-gradient(circle, rgba(74,213,77,1) 16%, 
+    rgba(138,227,219,1) 54%, rgba(249,132,132,1) 89%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 400%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animation 7s infinite alternate;
+    z-index: -1;
+}
+@keyframes animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+.content {
+    width: 120vh;
+    height: 50vh;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+.content:hover {
+    filter: hue-rotate(180deg);
+}
+h1 {
+    font-size: 6rem;
+}
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.top-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+hr {
+    height: 10;
+    z-index: 1000;
+}
