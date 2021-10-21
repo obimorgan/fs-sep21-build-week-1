@@ -1,5 +1,4 @@
 body {
-  color: #be2528;
   background: rgb(5, 5, 5);
   background: rgba(255, 12, 12, 0.534);
   background: linear-gradient(
@@ -15,19 +14,20 @@ body {
 }
 
 .container-header {
-  background: rgba(255, 12, 12, 0.534);
-  background: linear-gradient(
-    180deg,
-    rgba(235, 3, 80, 0.384) 6%,
-    rgb(158, 55, 55) 50%,
-    #371717 83%
-  );
+  background-color: #00000066;
 }
 
 .headerSmallRow {
-  color: gray;
+  color: #ccc;
   margin-left: 5px;
 }
+
+#albumImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 .album-title {
   color: aliceblue;
 }
@@ -38,16 +38,52 @@ body {
   color: aliceblue;
   margin-left: 5px;
 }
-.album-heder {
-  margin-top: 100px;
-  padding-left: 20px;
-}
 .play-btn {
   background: red;
 }
+
+.shortWidth {
+  width: 32px;
+}
+
+#copyright p {
+  font-size: 0.7em;
+}
+
+.bottom-album #seeMore {
+  color: #ccc;
+}
+
 .card {
   /* background-color: #121212; */
   margin-top: 3px;
+}
+.card-popular-release {
+  width: 13rem;
+  height: 17rem;
+  background: #121212;
+  transition: 0.3s;
+}
+.card-popular-release:hover {
+  width: 13rem;
+  height: 17rem;
+  box-shadow: 1px 1px 5px 5px rgb(150, 150, 150, 0.2);
+  background: #313030;
+}
+.album-img {
+  width: 11rem;
+  height: 11rem;
+}
+.card-album-text {
+  font-size: 13px;
+  color: rgb(192, 192, 192);
+}
+.card-about-contents {
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.bottom-album {
+  /* background-color: #121212; */
 }
 #botton-title a {
   text-decoration: none;
@@ -63,7 +99,7 @@ body {
   columns: white;
 }
 .TheaderText {
-  color: gray;
+  color: #bbb;
 }
 .container2 {
   height: 100px;
@@ -72,6 +108,18 @@ body {
   margin-top: none;
   margin-bottom: none;
 }
+.container2 {
+}
+/* .table > tboday > tr > td:hover {
+  color: white !important;
+} */
+/* .card-body .card-text {
+  background-color: #121212;
+  color: aliceblue;
+} */
+/* .card:hover {
+  color: white;
+} */
 
 /* Navbar */
 nav {
