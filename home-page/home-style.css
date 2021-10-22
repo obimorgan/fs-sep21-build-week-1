@@ -125,6 +125,11 @@ section .cardwrap:hover {
 #cardHover:hover .playHover {
   visibility: visible;
 }
+@media (max-width: 576px) {
+  #cardHover:hover .playHover {
+    visibility: hidden;
+  }
+}
 
 /* Navbar */
 nav {
