@@ -146,11 +146,11 @@ section .recentlyPlayed-Cards a {
   text-decoration: none;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   #cardHover:hover .playHover {
     visibility: hidden;
   }
-}
+} */
 
 /* Navbar */
 nav {
