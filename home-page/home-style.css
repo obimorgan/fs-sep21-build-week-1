@@ -54,7 +54,10 @@ h4 {
 }
 
 .recentlyPlayed-Cards .card {
-  background-color: rgba(255, 255, 255, 0.212) !important;
+  /* background-color: rgba(255, 255, 255, 0.212) !important; */
+
+  background: #121212 !important;
+  transition: 0.3s;
 }
 .recentPlayed-Section {
   display: flex;
@@ -99,7 +102,9 @@ h4 {
   background-color: rgba(34, 31, 31, 0.7) !important;
 }
 section .cardwrap:hover {
-  background-color: rgba(3, 3, 3, 0.027) !important;
+  /* background-color: rgba(3, 3, 3, 0.027) !important; */
+  box-shadow: 1px 1px 5px 5px rgb(150, 150, 150, 0.2);
+  background: #313030 !important;
 }
 /* extra feautre for good moring section  */
 .bodyHover {
@@ -125,6 +130,22 @@ section .cardwrap:hover {
 #cardHover:hover .playHover {
   visibility: visible;
 }
+.card {
+  color: transparent;
+}
+.card:hover {
+  color: #00ff00;
+}
+.card-body {
+  color: inherit;
+}
+.playButton {
+  color: inherit;
+}
+section .recentlyPlayed-Cards a {
+  text-decoration: none;
+}
+
 @media (max-width: 576px) {
   #cardHover:hover .playHover {
     visibility: hidden;
