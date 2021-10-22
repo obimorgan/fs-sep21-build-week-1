@@ -439,14 +439,15 @@
       </div>
 
       <!-- Main -->
-      <div class="jumbotron d-flex p-1 p-sm-2 p-md-3 m-0">
+      <div class="jumbotron d-flex flex-column flex-md-row align-items-center align-items-md-end p-1 p-sm-2 p-md-3 m-0">
         <img
           src="/fs-sep21-build-week-1/album-page/image/album dori.jpg"
           class="img-fluid"
           alt="Atil Album"
+          id="albumImg"
         />
-        <div class="album-heder flex-coloumn ">
-          <h2 class="album-title">ALBUM</h2>
+        <div class="album-heder flex-coloumn px-2">
+          <h6 class="album-title">ALBUM</h6>
           <h1 class="album-header">THE DEBUT ALBUM</h1>
           <div class="d-flex">
             <img
@@ -456,11 +457,11 @@
               height="30px"
               alt="small image"
             />
-            <a class= "ancher-header" href="#">Atif Aslam</a>
+            <a class= "ancher-header text-white" href="../artist-page/index.html">Atif Aslam</a>
             <div class="">
-              <span class="headerSmallRow">.2006</span>
-              <span class="headerSmallRow">.16 songs</span>
-              <span class="headerSmallRow">, 1hr 11 min</span>
+              <span class="headerSmallRow">•2006</span>
+              <span class="headerSmallRow">•16 songs,</span>
+              <span class="headerSmallRow">1hr 11 min</span>
             </div>
           </div>
         </div>
@@ -469,20 +470,23 @@
       <!--   here is end of almub header-->
       <!--   here is end of almub header-->
       <div class="container2 ">
-      <div class="d-flex justify-content-start align-items-center h-40 ">
-            <div class="text-success mt-4" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+      <div class="d-flex justify-content-start align-items-center">
+            <div class="text-success pr-4" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
                  </svg>
             </div>
-            <div class="text-success mt-4">
-             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart-fill ml-5"  viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-            </svg></div>
+            <div class="text-white px-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+</svg> 
+            </div>
             <!-- <button type="button" class="btn btn-outline-light btn-follow mx-5">FOLLOW</button> -->
-            <div class="dropdown  ml-5 mt-4">
-                <button class="btn dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    . . .
+            <div class="dropdown ">
+                <button class="btn text-white dropdown px-4" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+</svg>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <button class="dropdown-item" type="button">Add to Queue</button>
@@ -495,12 +499,12 @@
 
       <!--   here is  Start of Middle section  of Album-->
       <section>
-      <table class="table mb-0 table-borderless table-hover" id="tableSection">
-        <thead>
-          <tr id="tableRow">
-            <th class="TheaderText"scope="col">#</th>
-            <th class="TheaderText"scope="col">Title</th>
-            <th class="TheaderText"scope="col">
+      <table class="table align-middle mb-0 table-borderless table-hover" id="tableSection">
+        <thead class="border-bottom border-1 border-secondary">
+          <tr class="align-middle" id="tableRow">
+            <th class="TheaderText align-middle shortWidth p-1"scope="col">#</th>
+            <th class="TheaderText align-middle p-1"scope="col">Title</th>
+            <th class="TheaderText align-middle align-middle text-right p-1"scope="col">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -520,104 +524,123 @@
           </tr>
         </thead>
         <tbody class="colors">
-          <tr>
-            <th class="TheaderText"scope="row">1</th>
-            <td class="TheaderText">Doorie <br /><a class="link" href="#">Atif Aslam</a></td>
-            <td class="TheaderText">3:40</td>
+          <tr class="align-middle">
+            <th class="TheaderText align-middle shortWidth p-1"scope="row">1</th>
+            <td class="TheaderText align-middle p-1">Doorie <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText align-middle text-right p-1">3:40</td>
           </tr>
-          <tr>
-            <th class="TheaderText"scope="row">2</th>
-            <td class="TheaderText">
+          <tr class="align-middle">
+            <th class="TheaderText align-middle shortWidth p-1"scope="row">2</th>
+            <td class="TheaderText align-middle p-1">
               Hum Kis Galli Ja Rahe Hai <br /><a class="link" href="#">Atif Aslam</a>
             </td>
-            <td class="TheaderText">5:0</td>
+            <td class="TheaderText align-middle text-right p-1">5:0</td>
           </tr>
-          <tr>
-            <th class="TheaderText"scope="row">3</th>
-            <td class="TheaderText">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
-            <td class="TheaderText">6:40</td>
+          <tr class="align-middle">
+            <th class="TheaderText align-middle shortWidth p-1"scope="row">3</th>
+            <td class="TheaderText align-middle p-1">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText align-middle text-right p-1">6:40</td>
           </tr>
-          <tr>
-            <th class="TheaderText"scope="row">4</th>
-            <td class="TheaderText">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
-            <td class="TheaderText">4:40</td>
+          <tr class="align-middle">
+            <th class="TheaderText align-middle shortWidth p-1"scope="row">4</th>
+            <td class="TheaderText align-middle p-1">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText align-middle text-right p-1">4:40</td>
           </tr>
-          <tr>
-            <th class="TheaderText"scope="row">5</th>
-            <td class="TheaderText">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
-            <td class="TheaderText">5:40</td>
+          <tr class="align-middle">
+            <th class="TheaderText align-middle shortWidth p-1"scope="row">5</th>
+            <td class="TheaderText align-middle p-1">Ehsaas <br /><a class="link" href="#">Atif Aslam</a></td>
+            <td class="TheaderText align-middle text-right p-1">5:40</td>
           </tr>
         </tbody>
       </table>
+
+      <!-- copyright -->
+      <div class="text-secondary mt-4" id="copyright">
+        <p class="mb-0">© 2006 Envy High-Tech Music LTD.</p>
+        <p class="mb-0">© 2006 Tips Industries LTD.</p>
+      </div>
+
       <!--   here is  Last section  of Album-->
-      <div class="bottom-album p-1 p-sm-2 p-md-3">
-        <div id="botton-title" class=" d-flex justify-content-between mb-2">
-          <h2><a class="" href="#">More By Atif Aslam</a> </h2>
-          <h2><a class="" href="#">SEE Discography</a></h2>
-        </div>
-        <div class="Card-Container d-flex justify-content-between">
-        <div class="card d-flex flex-coloumn align-items-center " style="width: 18rem;  height: 17rem;">
-          <img
-            src="./image/osathi card.jpg"
-            class="card-img-top"
-            alt="O Saathi" style="width: 232px; height: 232px;"
-          />
-          <div class="card-body text-white">
-            <p class="card-text"><h4>O Saathi</h4></p>
-            <p class="card-text"><h5>2018</h5></p>
-          </div>
+      <div class="bottom-album p-1 p-sm-2 p-md-3 mt-5">
+        <div id="botton-title" class=" d-flex justify-content-between align-items-center mb-2">
+          <h2 class="text-white">More By Atif Aslam</h2>
+          <h5 id="seeMore">SEE Discography</h5>
         </div>
         
-        <div class="card d-flex flex-coloumn align-items-center" style="width: 18rem;  height: 17rem;">
-          <img
-            src="./image/pehli dafa card.jpg"
-            class="card-img-top img-fluid"
-            alt="Pehli dafa" style="width: 232px; height: 232px;" 
-          />
-          <div class="card-body text-white">
-            <p class="card-text mt-4"><h4>Pehli Dafa</h4></p>
-            <p class="card-text"><h5>2017</h5></p>
-          </div>
+        <div class="d-flex justify-content-around flex-wrap px-2">
+            <div class="card card-popular-release flex-column align-items-center m-2">
+                <img class="album-img pt-3" src="./image/jab koi card.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body  d-flex align-items-start justify-content-between " style="width: 212px;">
+                    <div class="card-text">
+                        <h6 class="text-white" > <strong>Fear Inocolom</strong></h6>
+                        <p class="card-album-text">2019 <span> &middot; </span> Album</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+                </div>
+            </div>
+            <div class="card card-popular-release flex-column align-items-center m-2">
+                <img class="album-img pt-3" src="./image/osathi card.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body  d-flex align-items-start justify-content-between " style="width: 212px;">
+                    <div class="card-text">
+                        <h6 class="text-white" > <strong>Lateralus</strong></h6>
+                        <p class="card-album-text">2001 <span> &middot; </span> Album</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+                </div>
+            </div>
+            <div class="card card-popular-release flex-column align-items-center m-2">
+                <img class="album-img pt-3" src="./image/paniyon card.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body  d-flex align-items-start justify-content-between " style="width: 212px;">
+                    <div class="card-text">
+                        <h6 class="text-white" > <strong> 10.000 Days</strong></h6>
+                        <p class="card-album-text">2006 <span> &middot; </span> Album</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+                </div>
+            </div>
+            <div class="card card-popular-release flex-column align-items-center m-2">
+                <img class="album-img pt-3" src="./image/pehli dafa card.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body  d-flex align-items-start justify-content-between " style="width: 212px;">
+                    <div class="card-text">
+                        <h6 class="text-white" > <strong>Undertow</strong></h6>
+                        <p class="card-album-text">1993 <span> &middot; </span> Album</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+                </div>
+            </div>
+            <div class="card card-popular-release flex-column align-items-center m-2">
+                <img class="album-img pt-3" src="./image/rafta rafta card.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body  d-flex align-items-start justify-content-between " style="width: 212px;">
+                    <div class="card-text">
+                        <h6 class="text-white" > <strong> Opiate</strong></h6>
+                        <p class="card-album-text">1992 <span> &middot; </span> Album</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+                </div>
+            </div>
+            <div class="card card-popular-release flex-column align-items-center m-2">
+                <img class="album-img pt-3" src="./image/album dori.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body  d-flex align-items-start justify-content-between " style="width: 212px;">
+                    <div class="card-text">
+                        <h6 class="text-white" > <strong>Aenima</strong></h6>
+                        <p class="card-album-text">1996 <span> &middot; </span> Album</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+                </div>
+            </div>
         </div>
-
-        <div class="card d-flex flex-coloumn align-items-center " style="width: 18rem;  height: 17rem;">
-          <img
-            src="./image/paniyon card.jpg"
-            class="card-img-top"
-            alt="Paniyon" style="width: 232px; height: 232px;"
-          />
-          <div class="card-body text-white">
-            <p class="card-text"><h4>Paniyon Sa</h4></p>
-            <p class="card-text"><h5>2018</h5></p>
-          </div>
-        </div>
-
-        <div class="card d-flex flex-coloumn align-items-center " style="width: 18rem;  height: 17rem;">
-          <img
-            src="./image/rafta rafta card.jpg"
-            class="card-img-top"
-            alt="Rafta rafta" style="width: 232px; height: 232px;"
-          />
-          <div class="card-body text-white">
-            <p class="card-text"><h4>Rafta Rafta</h4></p>
-            <p class="card-text"><h5>2021</h5></p>
-          </div>
-        </div>
-
-        <div class="card d-flex flex-coloumn align-items-center " style="width: 18rem;  height: 19rem;">
-          <img
-            src="./image/jab koi card.jpg"
-            class="card-img-top"
-            alt="Jab koi" style="width: 232px; height: 232px;"
-          />
-          <div class="card-body text-white">
-            <p class="card-text "><h4>Jab Koi Bat Recreated</h4></p>
-            <p class="card-text"><h5>2018</h5></p>
-            
-          </div>
-        </div>
-        </div> 
-        <br><br>
       </div>
       </div>
       <!--   here is  End of Middle section  of Album-->

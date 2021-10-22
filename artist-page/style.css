@@ -1,13 +1,18 @@
 body {
   font-family: "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro",
     "MS Gothic", sans-serif;
-  
 }
 #background {
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 75%, 
-  rgba(113,95,47,1) 100%, rgba(0,0,0,1) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 75%,
+    rgba(113, 95, 47, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
+page
+
 .title-text {
   font-size: 96px;
   font-weight: 900;
@@ -82,12 +87,12 @@ body {
 }
 
 .track-title-text {
-  font-size:15px;
+  font-size: 15px;
   font-weight: 500;
   color: rgb(235, 235, 235);
 }
 #green-row {
-  font-size:15px;
+  font-size: 15px;
   font-weight: 500;
   color: green;
 }
@@ -233,6 +238,18 @@ body {
   font-size: 12px;
   font: 500;
   color: white;
+}
+.card {
+  color: transparent;
+}
+.card:hover {
+  color: #00ff00;
+}
+.card-body {
+  color: inherit;
+}
+.playButton {
+  color: inherit;
 }
 
 /* Navbar */
