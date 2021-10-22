@@ -11,6 +11,11 @@ body {
   border-radius: 0;
 }
 
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 nav a:hover {
   text-decoration: none;
 }
