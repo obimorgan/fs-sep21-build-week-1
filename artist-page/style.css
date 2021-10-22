@@ -11,7 +11,6 @@ body {
     rgba(0, 0, 0, 1) 100%
   );
 }
-page
 
 .title-text {
   font-size: 96px;
@@ -71,7 +70,6 @@ page
   font-weight: 500;
   height: 30px;
   letter-spacing: 1px;
-
 }
 .btn.dropdown {
   color: rgb(167, 167, 167);
@@ -274,6 +272,7 @@ nav > ul a:hover {
   background: #666;
   border-radius: 5px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .navIcon {
