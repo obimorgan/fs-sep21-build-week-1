@@ -13,6 +13,10 @@ body {
   border-radius: 0;
 }
 
+nav a:hover {
+  text-decoration: none;
+}
+
 .container-header {
   background-color: #00000066;
 }
@@ -77,6 +81,18 @@ body {
 .card-album-text {
   font-size: 13px;
   color: rgb(192, 192, 192);
+}
+.card {
+  color: transparent;
+}
+.card:hover {
+  color: #00ff00;
+}
+.card-body {
+  color: inherit;
+}
+.playButton {
+  color: inherit;
 }
 .card-about-contents {
   margin-top: 350px;
