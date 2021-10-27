@@ -75,6 +75,7 @@ window.onload = () => {
     })
 
     alert('and deleted previous albums')
+    preventDefault()
 
     // albums.forEach((albumResult) => {
     //   let rowContent = ""
@@ -99,30 +100,30 @@ window.onload = () => {
 
 
 
-let visibility = true;
-const navVisibility = () => {
-  let nav = document.querySelector("nav");
-  let main = document.querySelector("main");
-  let jumbotron = document.getElementsByClassName("jumbotron")[0];
+// let visibility = true;
+// const navVisibility = () => {
+//   let nav = document.querySelector("nav");
+//   let main = document.querySelector("main");
+//   let jumbotron = document.getElementsByClassName("jumbotron")[0];
 
-  visibility ? nav.classList.add("d-none") : nav.classList.remove("d-none");
-  visibility ? main.classList.remove("d-none") : main.classList.add("d-none");
+//   visibility ? nav.classList.add("d-none") : nav.classList.remove("d-none");
+//   visibility ? main.classList.remove("d-none") : main.classList.add("d-none");
 
-  visibility = !visibility;
-};
+//   visibility = !visibility;
+// };
 
-let menuButtonMain = document
-  .getElementById("menuButton")
-  .addEventListener("click", () => navVisibility());
+// let menuButtonMain = document
+//   .getElementById("menuButton")
+//   .addEventListener("click", () => navVisibility());
 
-let menuButtonNav = document
-  .getElementById("menuButtonNav")
-  .addEventListener("click", () => navVisibility());
+// let menuButtonNav = document
+//   .getElementById("menuButtonNav")
+//   .addEventListener("click", () => navVisibility());
 
-function on() {
-  document.getElementById("overlay").style.display = "block";
-}
+// function on() {
+//   document.getElementById("overlay").style.display = "block";
+// }
 
-function off() {
-  document.getElementById("overlay").style.display = "none";
-}
+// function off() {
+//   document.getElementById("overlay").style.display = "none";
+// }
