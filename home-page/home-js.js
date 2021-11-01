@@ -4,10 +4,8 @@ window.onload = function () {
 } 
 
 
-
-
 const displayRecentlyPlayed = () => {
-  fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=metal")
+  fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=pop")
     .then((response) => response.json())
     .then((data) => {
       console.log(data)
