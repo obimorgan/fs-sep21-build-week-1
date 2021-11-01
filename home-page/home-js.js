@@ -3,9 +3,8 @@ window.onload = function () {
   getDateTime();
 } 
 
-
 const displayRecentlyPlayed = () => {
-  fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=pop")
+  fetch("https://striveschool-api.herokuapp.com/api/deezer/search?q=hip-hop")
     .then((response) => response.json())
     .then((data) => {
       console.log(data)
@@ -37,8 +36,40 @@ const displayRecentlyPlayed = () => {
       ).join('')
     })
     .catch((err) => console.log(err))
-} 
+}
 
+const searchResult = () => {
+  const searchInput =  document.querySelector('.form-control')
+  fetch(`https://striveschool-api.herokuapp.com/api/deezer/search?q=${searchInput.value}`)
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data)
+      const parent = document.querySelector('.search-result')
+      parent.innerHTML = data.data.map(element =>
+      `
+      <div class="music-card my-1"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
+        <div class="media d-flex">
+          <img
+            src="${element.artist.picture_small}"
+            class="mr-3 img-fluid img1"
+            alt="..."
+          />
+          <div class="media-body bodyHover d-flex align-self-center">
+            <a href="../artist-page/index.html?artistId=${element.artist.id}" style="text-decoration: none; color: white;">
+              <h6 class="mt-0">${element.artist.name}</h6>
+            </a>
+            <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+          </div>
+        </div>
+      </div>
+
+      `
+      ).join('')
+    })
+    .catch((err) => console.log(err))
+} 
+const searchBtn = document.querySelector('.bi-search')
+searchBtn.addEventListener('click', searchResult)
 
 
 

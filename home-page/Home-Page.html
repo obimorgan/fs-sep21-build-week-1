@@ -63,7 +63,17 @@
           </a>
         </li>
         <li class="row">
-          <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </span>
+            </div>
+            <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <!-- <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
             <span class="navIcon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +89,7 @@
               </svg>
             </span>
             Search
-          </a>
+          </a> -->
         </li>
         <li class="row">
           <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
@@ -442,13 +452,13 @@
         <!-- <div class="col-12"> -->
           <!-- G.moring header  -->
     <div class=" goodmorningcontainer mt-5 mb-3">
-      <h4 id="display" class=" mx-2">Good morning</h4>
+      <h4 id="display" class="ml-n1">Good morning</h4>
     </div>
    <!-- G.moring header  -->
   
-  <div class="d-flex justify-content-between">
-    <!-- card 1 -->
-    <div class="music-card mx-2"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
+  <div class="search-result d-flex justify-content-between flex-wrap">
+    
+    <div class="music-card my-1"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
       <div class="media d-flex">
         <img
           src="./assets/JColeKOD.jpg"
@@ -461,8 +471,8 @@
         </div>
       </div>
     </div>
-    <!-- card 2 -->
-    <div class="music-card mx-2 d-none d-md-block">
+    
+    <div class="music-card my-1 d-none d-md-block">
       <div class="media gm flex-fill" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(252, 186, 3) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
         <img
           src="./assets/Alleyezonme.jpg"
@@ -470,13 +480,16 @@
           alt="..."
         />
         <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">All eyez on me</h6>
+          <a href="" style="text-decoration: none; color: white;">
+            <h6 class="mt-0">All eyez on me</h6>
+          </a>
+          
           <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
         </div>
       </div>
     </div>
-    <!-- card 3 -->
-    <div class="music-card mx-2 d-none d-lg-block">
+    
+    <div class="music-card my-1 d-none d-lg-block">
       <div class="media gm"id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(101, 150, 219) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
         <img
           src="./assets/Dave_Psychodrama.jpeg"
@@ -489,8 +502,8 @@
         </div>
       </div>
     </div>
-    <!-- card 4 -->
-    <div class="music-card mx-2 d-none d-xl-block">
+    
+    <div class="music-card my-1 d-none d-xl-block">
       <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()"">
         <img
           src="./assets/Ready_To_Die.jpg"
@@ -503,8 +516,8 @@
         </div>
       </div>
     </div>
-    <!-- card 5 -->
-    <div class="music-card mx-2 d-none d-sm-block">
+    
+    <div class="music-card my-1 d-none d-sm-block">
       <div class="media gm"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(82, 83, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
         <img
           src="./assets/sad xxxt.jfif"
@@ -516,13 +529,13 @@
           <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
         </div>
       </div>
-    </div>
+    </div> 
   </div>
-  <!--  -->
+  
   <!-- card second col -->
   <!-- card 6 -->
-  <div class="d-flex mt-3">
-    <div class="music-card mx-2 ">
+  <!-- <div class="d-flex mt-3"> -->
+    <!-- <div class="music-card mx-2 ">
       <div class="media gm"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 78, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
         <img
           src="./assets/IllmaticNas.jpg"
@@ -548,7 +561,7 @@
         </div>
       </div>
     </div>
-    <!-- card 7 -->
+    
     <div class="music-card mx-2 d-none d-lg-block">
       <div class="media gm "id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 35, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
         <img
@@ -562,7 +575,7 @@
         </div>
       </div>
     </div>
-    <!-- card 8 -->
+    
     <div class="music-card mx-2 d-none d-xl-block">
       <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 79) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
         <img
@@ -576,7 +589,7 @@
         </div>
       </div>
     </div>
-    <!-- card 8 -->
+    
     <div class="music-card mx-2 d-none d-sm-block">
       <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 83, 14) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
         <img
@@ -589,7 +602,7 @@
           <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
 
