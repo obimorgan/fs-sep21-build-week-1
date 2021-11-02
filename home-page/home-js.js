@@ -37,9 +37,8 @@ const displayRecentlyPlayed = () => {
     })
     .catch((err) => console.log(err))
 }
-
-const searchResult = () => {
-  const searchInput =  document.querySelector('.form-control')
+const searchInput =  document.querySelector('.form-control')
+const searchResult = () => {  
   fetch(`https://striveschool-api.herokuapp.com/api/deezer/search?q=${searchInput.value}`)
     .then((response) => response.json())
     .then((data) => {
